@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.JScrollBar" name="jScrollBar1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+              <Component id="jLabel23" min="-2" pref="90" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="274" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="622" max="-2" attributes="0"/>
+              <EmptySpace pref="330" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="33" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="457" max="-2" attributes="0"/>
+                      <Component id="jLabel21" alignment="0" min="-2" pref="457" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="674" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace pref="29" max="32767" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="48" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SIMULASI RAKIT PC"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel21">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="18" style="2"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="MEMBERI KEBEBASAN DAN MENCEGAH KERAGUAN"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel2" alignment="0" min="-2" pref="147" max="-2" attributes="0"/>
+                                          <Component id="jLabel3" alignment="0" min="-2" pref="132" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="jLabel8" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel10" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
+                                          <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel12" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
+                                          <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="Scktyp" max="32767" attributes="0"/>
+                                          <Component id="Prcsr" max="32767" attributes="0"/>
+                                          <Component id="Mobo" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Ram" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Hdd" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Ssd" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Case" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Vga" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Psu" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Kybrd" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Mouse" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Mntr" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Ccooler" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="CoolerF" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Optcl" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Spkr" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Hdst" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="Sftwr" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="JmlOptcl" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="JmlSpeaker" alignment="0" min="-2" pref="69" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="JumlahCoolerF" min="-2" pref="69" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="JmlMouse" alignment="0" pref="69" max="32767" attributes="0"/>
+                                              <Component id="JmlKybrd" max="32767" attributes="0"/>
+                                              <Component id="JmlCcooler" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="JmlMntr" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="JmlCase" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="JmlVGA" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="JmlPSU" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="jTextField1" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="JmlSSD" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="JmlMobo" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="JmlRam" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="JmlHDD" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="Jmlprcsr" alignment="1" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="JmlHeadset" min="-2" pref="69" max="-2" attributes="0"/>
+                                          <Component id="JmlSftwr" min="-2" pref="69" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="TtlRam" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlPrcsr" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlMobo" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlHeadset" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlSpeaker" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlCase" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlVGA" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlPSU" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlMouse" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlMntr" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlCcooler" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TotalCoolerF" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlOptcl" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlKybrd" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlSftwr" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="TtlSSD" alignment="1" pref="128" max="32767" attributes="0"/>
+                                  <Component id="TtlHDD" alignment="1" pref="128" max="32767" attributes="0"/>
+                                  <Component id="Total_ALL" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="410" max="-2" attributes="0"/>
+                              <Component id="Btm_jf" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Scktyp" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="Prcsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Jmlprcsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TtlPrcsr" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="Mobo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JmlMobo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TtlMobo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel5" min="-2" pref="24" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Ram" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JmlRam" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TtlRam" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Hdd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JmlHDD" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TtlHDD" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="Ssd" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JmlSSD" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TtlSSD" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="Case" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JmlCase" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TtlCase" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="Vga" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JmlVGA" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TtlVGA" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="Psu" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JmlPSU" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TtlPSU" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="Kybrd" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JmlKybrd" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="TtlKybrd" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="Mouse" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlMouse" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="Mntr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlMntr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TtlMntr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="Ccooler" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlCcooler" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TtlCcooler" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="CoolerF" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JumlahCoolerF" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TotalCoolerF" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="Optcl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlOptcl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TtlOptcl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="Spkr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlSpeaker" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TtlSpeaker" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="Hdst" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlHeadset" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="TtlHeadset" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="Sftwr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JmlSftwr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TtlSftwr" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="TtlMouse" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Total_ALL" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="Btm_jf" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE SOCKET TYPE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Scktyp">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="AM1&#x9;(for AMD)"/>
+                    <StringItem index="1" value="AM3&#x9;(for AMD)"/>
+                    <StringItem index="2" value="AM3+&#x9;(for AMD)"/>
+                    <StringItem index="3" value="LGA1150&#x9;(for Intel)"/>
+                    <StringItem index="4" value="LGA1151&#x9;(for Intel)"/>
+                    <StringItem index="5" value="LGA1155&#x9;(for Intel)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ScktypMouseReleased"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ScktypActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE PROCESSOR"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Prcsr">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="7">
+                    <StringItem index="0" value="AMD Carrizzo A8-7680 3.5 Ghz 65W(Rp 698.000)"/>
+                    <StringItem index="1" value="AMD Codafari A6-7480 3.7 Ghz 65W(Rp 480.000)"/>
+                    <StringItem index="2" value="AMD Ryzen Threadripper 3970X 280W(Rp 36.999.000)"/>
+                    <StringItem index="3" value="Intel Core i7-4790 3.6Ghz (Rp 1.995.000)"/>
+                    <StringItem index="4" value="Intel Core i5-4460 3,2Ghz(Rp 860.000)"/>
+                    <StringItem index="5" value="Intel Core i7-7700K 4.2Ghz(Rp 5.200.000)"/>
+                    <StringItem index="6" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE MOTHERBOARD"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Mobo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="7">
+                    <StringItem index="0" value="Colorful Battle axe v14 (Rp 750.000)"/>
+                    <StringItem index="1" value="ASRock FM2A68M-DG+(Rp 654.000)"/>
+                    <StringItem index="2" value="Gigabyte X399 Aorus Pro (Rp 3.960.000)"/>
+                    <StringItem index="3" value="Intel E-Series Server Board S2600CW2R (Rp 4.695.000)"/>
+                    <StringItem index="4" value="Gigabyte C621-SD8 (Rp 8.330.000)"/>
+                    <StringItem index="5" value="Asus Workstation C621E (Rp 10.900.000)"/>
+                    <StringItem index="6" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE RAM"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Ram">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Avexir DDR3 Core Red PC12800 (1x8GB) (Rp 540.000)"/>
+                    <StringItem index="1" value="Avexir DDR4 Raiden Series PC24000(2x8GB) (Rp 1.400.000)"/>
+                    <StringItem index="2" value="Corsair DDR4 Vengeance LPX PC21000 (2x8GB) (Rp 1.415.000)"/>
+                    <StringItem index="3" value="Team Elite Plus DDR3 PC12800 (1x8GB) (Rp 595.000)"/>
+                    <StringItem index="4" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE HARD DISK"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Hdd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="WDC 1TB SATA3 64MB WD10EZEX (Rp 615.000)"/>
+                    <StringItem index="1" value="WDC Purple 4TB WD40PURZ (Rp 1.415.000)"/>
+                    <StringItem index="2" value="Toshiba 2TB SATA3 7200RPM p300 (Rp 822.000)"/>
+                    <StringItem index="3" value="Seagate 8TB for NAS ironWolf series (Rp 3.625.000)"/>
+                    <StringItem index="4" value="Seagate 500GB SATA3 Barracuda Series (Rp 590.000)"/>
+                    <StringItem index="5" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE SSD"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Ssd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="LaCie 500GB SSD Rugged T (Rp 5.799.000)"/>
+                    <StringItem index="1" value="Galax 120GB SSD Gamer L (Rp 325.000)"/>
+                    <StringItem index="2" value="Adata 512GB SATA3 SSD (Rp 1.167.000)"/>
+                    <StringItem index="3" value="Corsair 960GB CSSD-F960GBMP300 (Rp 2.435.000)"/>
+                    <StringItem index="4" value="Biostar SSD S-100 240GB (Rp 637.000)"/>
+                    <StringItem index="5" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE CASING"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Case">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="Cube Gaming Weis V2 12CM Rainbow Fan (RP 420.000)"/>
+                    <StringItem index="1" value="Rajintek Nestor Black 3x12CM fan (Rp 550.000)"/>
+                    <StringItem index="2" value="Segotep Gaming Case Warship Eva (Rp 450.000)"/>
+                    <StringItem index="3" value="be quiet! Gaming Case 601 (Rp 2.300.000)"/>
+                    <StringItem index="4" value="Bitfenix Shinobi XL window white (Rp 2.100.000)"/>
+                    <StringItem index="5" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE VGA"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Vga">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="Galax Geforce GTX 1070 3GB (Rp 2.800.000)"/>
+                    <StringItem index="1" value="FirePro S7150CG 8GB (Rp 17.025.000)"/>
+                    <StringItem index="2" value="Manli Geforce GTX 1070Ti 8GB (Rp 4.610.000)"/>
+                    <StringItem index="3" value="Asus Geforce 1050Ti 4GB (Rp 2.920.000)"/>
+                    <StringItem index="4" value="Leadtek Quadro Pascal P2000 5GB (Rp 7.725.000)"/>
+                    <StringItem index="5" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE PSU"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Psu">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="1stPlayer Gaming PSU 600W PS-600AX (Rp800.000)"/>
+                    <StringItem index="1" value="Cougar Gaming 550W GX-S550 (Rp 1.021.000)"/>
+                    <StringItem index="2" value="Super Flower SF550F14MT (Rp 1.010.000)"/>
+                    <StringItem index="3" value="Antec VP Series 500W (Rp 530.000)"/>
+                    <StringItem index="4" value="Corsair CXM Series 7 750W (Rp 1.530.000)"/>
+                    <StringItem index="5" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE KEYBOARD"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Kybrd">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="7">
+                    <StringItem index="0" value="Cougar Mechanical Gaming Keyboard X3 MX (Rp 1.292.000)"/>
+                    <StringItem index="1" value="Aula Gaming Keyboard SI-882 (Rp 450.000)"/>
+                    <StringItem index="2" value="Logitech Classic Keyboard K120 (Rp 105.000)"/>
+                    <StringItem index="3" value="Roccat RYOS MK Pro (Rp 1.775.000)"/>
+                    <StringItem index="4" value="Digital Alliance Meca RGB (Rp 500.000)"/>
+                    <StringItem index="5" value="Powerlogic Airpad 1 (Rp 225.000)"/>
+                    <StringItem index="6" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE MOUSE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Mouse">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="Cougar Gaming Mouse 450M (Rp 530.000)"/>
+                    <StringItem index="1" value="Logitech G102 Prodigy gaming mouse (Rp 245.000)"/>
+                    <StringItem index="2" value="Gamdias GMS500 Dameter (Rp 114.000)"/>
+                    <StringItem index="3" value="Roccat Tyon (Rp 1.200.000)"/>
+                    <StringItem index="4" value="Gamdias ZEUS-M1 (Rp 349.000)"/>
+                    <StringItem index="5" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE MONITOR"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Mntr">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="ACER 19.5&quot; K202HQL LED Wide Screen (Rp 935.000)"/>
+                    <StringItem index="1" value="AOC 23.6&quot; E2470SWH (Rp 1.560.000)"/>
+                    <StringItem index="2" value="ASUS MB169B+ 15.6&quot; Portable LED (Rp. 3.420.000)"/>
+                    <StringItem index="3" value="BenQ ZOWIE 24&quot; XL2411P (Rp 3.465.000)"/>
+                    <StringItem index="4" value="LG 22&quot; LED 22MK430H (Rp 1.253.000)"/>
+                    <StringItem index="5" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE CPU COOLER"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Ccooler">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="8">
+                    <StringItem index="0" value="Antec A30 92mm (Rp 280.000)"/>
+                    <StringItem index="1" value="CRYORIG H5 universal XT140 (Rp 700.000)"/>
+                    <StringItem index="2" value="bequiet! pure rock cooling (Rp 550.000)"/>
+                    <StringItem index="3" value="1stPlayer steampunk DC2425ST (Rp 880.000)"/>
+                    <StringItem index="4" value="Rajintek Aidos CPU cooler (Rp 320.000)"/>
+                    <StringItem index="5" value="SEGOTEP Frost Castle (Rp 60.000)"/>
+                    <StringItem index="6" value="-(0)"/>
+                    <StringItem index="7" value=" "/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE COOLER FAN"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="CoolerF">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="CRYORIG 14CM PWM FAN (Rp 230.000)"/>
+                    <StringItem index="1" value="Antec TrueQuiet UFO RING LED (Rp. 185.000)"/>
+                    <StringItem index="2" value="SEGOTEP fan cooling green LED (Rp 60.000)"/>
+                    <StringItem index="3" value="Corsair HD120 RGB (Rp 605.000)"/>
+                    <StringItem index="4" value="Deepcool XFAN 12cm (Rp 50.000)"/>
+                    <StringItem index="5" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE OPTICAL"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Optcl">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Asus External DVD RW SDRW-08D2S (Rp 296.000)"/>
+                    <StringItem index="1" value="LG DVDRW External Slim (Rp 280.000)"/>
+                    <StringItem index="2" value="Lite-On DVDRW 24X SATA (OEM) (Rp 165.000)"/>
+                    <StringItem index="3" value="Asus BlueRay Writer SBW-06D5H (Rp 1.645.000)"/>
+                    <StringItem index="4" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE SPEAKER"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Spkr">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="7">
+                    <StringItem index="0" value="AvarMedia Ballista Trinity (Rp 1.480.000)"/>
+                    <StringItem index="1" value="Bose Companion 20 (Rp 6.000.000)"/>
+                    <StringItem index="2" value="Dazumba Diva 38 (Rp 625.000)"/>
+                    <StringItem index="3" value="Edifier C2 XD (Rp 1.590.000)"/>
+                    <StringItem index="4" value="JBL Voyager (Rp 2.900.000)"/>
+                    <StringItem index="5" value="Logitech Z313 (Rp 400.000)"/>
+                    <StringItem index="6" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE HEADSET"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Hdst">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="AKG K374 (Rp 1.210.000)"/>
+                    <StringItem index="1" value="Biostar IDEQ N20 (Rp 99.000)"/>
+                    <StringItem index="2" value="BOSE Soundlink On Ear (Rp 4.500.000)"/>
+                    <StringItem index="3" value="AX 180 Gaming Headset UK version (Rp 1.150.000)"/>
+                    <StringItem index="4" value="Edifier Headphone Series M815 (Rp 400.000)"/>
+                    <StringItem index="5" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CHOOSE SOFTWARE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="Sftwr">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="Windows 10 Home (Rp 1.584.000)"/>
+                    <StringItem index="1" value="Windows 10 Proffesional 64Bit (Rp 2.029.000)"/>
+                    <StringItem index="2" value="Office 365 Personal (Rp 525.000)"/>
+                    <StringItem index="3" value="ESET Antivirus NOD32 (Rp 210.000)"/>
+                    <StringItem index="4" value="Office 2019 Home &amp; Business (Rp 3.089.000)"/>
+                    <StringItem index="5" value="-(0)"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlPrcsr">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlPrcsrMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlPrcsrActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlMobo">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlMoboMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlMoboActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlRam">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlRamMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlRamActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlHDD">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlHDDMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlHDDActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlSSD">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlSSDMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlCase">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlCaseMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlCaseActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlVGA">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlVGAMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlVGAActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlPSU">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlPSUMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlPSUActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlKybrd">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlKybrdMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlKybrdActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlMouse">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlMouseMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlMntr">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlMntrMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlMntrActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlCcooler">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlCcoolerMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlCcoolerActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TotalCoolerF">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TotalCoolerFMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TotalCoolerFActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlOptcl">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlOptclMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlOptclActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlSpeaker">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlSpeakerMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlSpeakerActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlHeadset">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlHeadsetMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlHeadsetActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="TtlSftwr">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TtlSftwrMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TtlSftwrActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="13" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="GRAND TOTAL"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="Total_ALL">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Total_ALLMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="Jmlprcsr">
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlMobo">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlRam">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlHDD">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlSSD">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlCase">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlVGA">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlPSU">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlKybrd">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlMouse">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlMntr">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlCcooler">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JumlahCoolerF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlOptcl">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlSpeaker">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlHeadset">
+            </Component>
+            <Component class="javax.swing.JTextField" name="JmlSftwr">
+            </Component>
+            <Component class="javax.swing.JButton" name="Btm_jf">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="BACK TO MENU"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btm_jfActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="*Choose -(0) if you not buy in combo box "/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quantity"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total Price"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
